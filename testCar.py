@@ -47,7 +47,7 @@ class CarClassTest(unittest.TestCase):
         koenigsegg = Car('Koenigsegg', 'Agera R')
         self.assertTrue(koenigsegg.is_saloon(),
                         msg='The car type should be saloon if it is not a trailer')
-
+                        
     def test_car_speed(self):
         man = Car('MAN', 'Truck', 'trailer')
         parked_speed = man.speed
